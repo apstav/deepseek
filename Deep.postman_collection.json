@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "536a9db6-e567-4eb8-981c-f4db695e324c",
+		"name": "Deep",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "26275069",
+		"_collection_link": "https://dark-moon-617268.postman.co/workspace/Rhodes~5ce6802c-9771-4179-ba00-8814305bd766/collection/26275069-536a9db6-e567-4eb8-981c-f4db695e324c?action=share&source=collection_link&creator=26275069"
+	},
+	"item": [
+		{
+			"name": "http://localhost:11434/api/generate",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n    \"model\": \"deepseek-coder\",\r\n    \"prompt\": \"hello?\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:11434/api/generate"
+			},
+			"response": []
+		}
+	]
+}
