@@ -5,7 +5,6 @@ This repository contains a setup to run an Ollama server inside a Docker contain
 ## Prerequisites
 
 - Docker installed on your system
-- (Optional) Docker Compose if you plan to use it
 
 ## Files
 
